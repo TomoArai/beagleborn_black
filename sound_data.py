@@ -19,7 +19,7 @@ def ifttt_webhook(eventid):
     payload = {"value1": Gx_i,
                 "value2": Gy_i,
                 "value3": freq[maximal_idx] }
-    url = "https://maker.ifttt.com/trigger/" + eventid + "/with/key/lw1KadV3UH4bdfDwquxSEPvAOSj0FrNo_iPm1UjD-Ey"
+    url = "https://maker.ifttt.com/trigger/" + eventid + "/with/key/xxxxxxxxxxxxxxxxxxx"
     response = requests.post(url, data=payload)
 
 # Starting measurement sound data
