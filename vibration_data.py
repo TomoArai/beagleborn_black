@@ -24,7 +24,7 @@ def ifttt_webhook(eventid):
     payload = {"value1": Vibration_abs_mean_data_X,
                 "value2": Vibration_abs_mean_data_Y,
                 "value3": Vibration_abs_mean_data_Z } #payloads is just plan. We have to revise after completion prototype.
-    url = "https://maker.ifttt.com/trigger/" + eventid + "/with/key/lw1KadV3UH4bdfDwquxSEPvAOSj0FrNo_iPm1UjD-Ey"
+    url = "https://maker.ifttt.com/trigger/" + eventid + "/with/key/xxxxxxxxxxxxxxxxxxxxxxxxxx"
     response = requests.post(url, data=payload)
 
 # Starting measurement sound data
